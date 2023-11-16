@@ -1,0 +1,36 @@
+/* Style for the container */
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Style for the counter */
+.counter {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* Add additional styling for h2 tag */
+h2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Style for the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  flex-grow: 1;
+}
